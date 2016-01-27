@@ -1,0 +1,98 @@
+body {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+#main { border:1px #000000 solid; width: 520px; margin: 15px auto;}
+
+#login_panel {
+    border: 1px #000000 solid; width: 400px; margin: 30px auto;
+}
+
+h1 {
+    text-align: center;
+}
+
+input {
+    width: 375px;
+    margin: 10px auto;
+    text-align: center;
+    display: block;
+    font-size: 22pt;
+}
+
+#message_container {
+    margin: 20px; 
+    padding: 0px; 
+    height : 540px;
+    overflow-y:auto;
+}
+
+#message_input { 
+    width: 475px; 
+    height: 60px;
+    margin: 0 auto 10px auto;
+    display:block;
+    font-size: 18pt;
+}
+.button {
+    display:block; 
+    width: 100px; 
+    height: 34px; 
+    margin: 0px auto 20px; 
+    text-align:center; 
+    vertical-align: central; 
+    background: #3937ee;
+    font-size: 13pt; color: #ffffff;
+    text-decoration: none;
+    font-weight: 600;
+    padding-top: 10px;
+}
+
+.button:hover{
+    background: #01c9ff;
+    cursor: pointer;
+}
+
+.message_div {
+    border-radius: 5px 5px;
+    margin: 5px 10px 5px 0px;
+    padding: 6px;
+    max-width : 400px;
+    min-width: 200px;
+    clear:both;
+}
+
+.received {
+    float: left;
+    background-color: #d9edf7;
+}
+
+.sended {
+    float:right;
+    background-color: #dff0d8;
+}
+
+.message_div .author {
+    font-weight: bolder;
+    font-size: 15pt;
+}
+
+.message_div .date {
+    font-size: 10pt;
+}
+
+.sended .author {
+    float:right;
+    clear:both;
+} 
+
+.sended .date {
+    float:right;
+    clear:both;
+}
+
+.message_div .content {
+    font-size: 12pt;
+    clear:both;
+}
+
+

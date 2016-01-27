@@ -1,0 +1,10 @@
+{
+  "name": "chat",
+  "version": "0.0.0",
+  "description": "chat",
+  "main": "server.js",
+  "author": {
+    "name": "Edison",
+    "email": ""
+  }
+}
